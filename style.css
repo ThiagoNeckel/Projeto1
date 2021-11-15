@@ -1,0 +1,79 @@
+body{
+    overflow: hidden;
+}
+
+
+.container-img{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 90vh;
+width: 100vw;
+background-image: url("compras.jpg");
+background-size: cover;
+background-repeat:no-repeat;
+
+
+}
+
+
+
+#ul{
+
+list-style-type: none;
+cursor: pointer;
+font-size: 20px;
+display: inline;
+
+
+}
+
+
+
+.feito{    
+
+text-decoration: line-through;
+
+}
+
+.cabecalho{
+
+text-align: center;
+color: maroon;
+margin-top: 100px;
+}
+
+.entrada-dados{
+text-align: center;
+display: flex;
+width:100%;
+
+
+}
+
+#entrada {
+
+padding: 20px;
+display: inline-block;
+position: relative;
+}
+#del{
+
+background: transparent;
+border: transparent;
+position: fixed;
+right: 540px;
+display: inline;
+
+
+}
+#btn{
+background: transparent;
+border: transparent;
+}
+#aluno{
+
+position:absolute;
+text-align: center;
+bottom: 0;
+}
